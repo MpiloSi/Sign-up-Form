@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cat Club</title>
+</head>
+<body>
+    <section class="container">
+        <aside>
+            <img src="./img/daniel-lee-PxEaE_ADTpw-unsplash.jpg" alt="" class="pic">
+            <h1 class="lt">Join the club</h1>
+        </aside>
+        <article>
+            <h1>You know you need something like this in your life to help you realize your deepest dreams. Sign up now.</h1>
+            <h2>The <i>Cats</i> are calling.</h2>
+            <section class="form-container">
+                <form action="">
+                    <label for="first_name">First Name: </label>
+                    <input type="text" id="first_name" name="first_name" class="control" required>
+                    <br>
+                    <label for="last_name">Last Name: </label>
+                    <input type="text" id="last_name" name="last_name" class="control" required>
+                    <br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" class="control" required>
+                    <br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="control" required>
+                    <br>
+                    <label for="password1">Password:</label>
+                    <input type="password" id="password1" name="password1" class="control" required>
+                    <br>
+                    <label for="password2">Confirm Password: </label>
+                    <input type="password" id="password2" name="password2" class="control" required>
+                </form>
+            </section>
+            <button type="submit" class="btn">Sign Up</button>
+            <p>Already have an account? <a href="#" class="log-in">Log In</a></p>
+        </article>
+    </section>
+</body>
+</html>
